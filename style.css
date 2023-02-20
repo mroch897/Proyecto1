@@ -1,0 +1,14 @@
+:root{
+    --mr-color-brand:rgb(255, 132, 0);
+
+
+    /* COLOR PALETTE */
+    --rc-color-n-000: #fff;
+    --rc-color-n-050: #f5f5f5;
+    --rc-color-n-100: #ebebeb;
+    --rc-color-n-300: #aeaeae;
+    --rc-color-n-500: #353535;
+    --rc-color-n-700: #282828;
+    --rc-color-n-900: #1a1a1a;
+}
+
