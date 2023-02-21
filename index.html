@@ -3,14 +3,8 @@
   <head>
     <!-- META -->
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
-    <meta
-      name="Thunderbolt ⚡️"
-      content="Made with HTML & CSS"
-    />
+    <meta name="viewport"content="width=device-width, initial-scale=1"/>
+    <meta name="Thunderbolt ⚡️"content="Made with HTML & CSS"/>
     <meta
       name="author"
       content="Rock The Code"
@@ -84,44 +78,84 @@
 
     <!--FONT AWESOME-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- TITLE -->
+<link rel="stylesheet" href="https://kit.fontawesome.com/4df9c1efca.css" crossorigin="anonymous">
+
+<!-- TITLE -->
     <title>Landing</title>
   </head>
   <body>
     <section>
-      <header>
-        <div class="banner">
-          <span
-            ><a href="emailto:marcroigchueca@gmail.com"
-              >mrrunner@gmail.com</a
-            ></span
-          >
-
-          <span>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-youtube"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </span>
+      <header class="rc-section-header">
+        <div class="rc-layout-container">
+          <div class="rc-section-header__layout rc-layout-flex">
+            <!-- HAMBURGER -->
+            <input type="checkbox" id="rc-section-header--menu-id">
+            <label for="rc-section-header--menu-id" class="rc-section-header--menu-icon"></label>
+            <!-- MENU -->
+            <ul class="main-nav" id="js-menu">
+              <li><a href="#" class="nav-links">Home</a></li>
+              <li><a href="#" class="nav-links">Planes</a></li>
+              <li><a href="#" class="nav-links"> Actividades</a></li>
+              <li><a href="#" class="nav-links">Contacto</a></li>
+          </ul>
+          </div>
         </div>
       </header>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Planes</li>
-          <li>Actividades</li>
-          <li>Contacto</li>
-        </ul>
-      </nav>
 
-      <div>
-        <div>Plan1</div>
-        <div>Plan2</div>
-        <div>Plan3</div>
+    
+
+      <div class="grid-container">
+        <div class="item-container">
+            <h2>1</h2>
+        </div>
+
+        <div class="item-container">
+          <h2>1</h2>
+        </div>
+
+        <div class="item-container">
+          <h2>1</h2>
+       </div>
       </div>
+    
     </section>
 
-    <section class="galleries"></section>
+    <section class="galleries">
+      <div class="galleries-container">
+        <div class="img-container">
+          <img src="./assets/img1.png" alt="foto">
+        </div>
+        <div class="img-container">
+          <img src="./assets/img2.png" alt="foto">
+        </div>
+
+        <div class="img-container">
+          <img src="./assets/img3.png" alt="foto">
+        </div>
+
+        <div class="img-container">
+          <img src="./assets/img4.png" alt="foto">
+        </div>
+
+        <div class="img-container">
+          <img src="./assets/img5.png" alt="foto">
+        </div>
+
+        <div class="img-container">
+          <img src="./assets/img6.png" alt="foto">
+        </div>
+
+        <div class="img-container">
+          <img src="./assets/img7.png" alt="foto">
+        </div>
+
+        <div class="img-container">
+          <img src="./assets/img8.png" alt="foto">
+        </div>
+
+
+      </div>
+    </section>
 
     <footer>
       <div class="footer">
