@@ -84,41 +84,69 @@
     <title>Landing</title>
   </head>
   <body>
-    <section>
-      <header class="rc-section-header">
-        <div class="rc-layout-container">
-          <div class="rc-section-header__layout rc-layout-flex">
+    <section class="head">
+      <header class="mr-section-header">
+        <div class="mr-layout-container">
+          <div class="mr-section-header__layout mr-layout-flex">
             <!-- HAMBURGER -->
-            <input type="checkbox" id="rc-section-header--menu-id">
-            <label for="rc-section-header--menu-id" class="rc-section-header--menu-icon"></label>
+            <input type="checkbox" class="mr-section-header--menu-id">
+            <label for="rc-section-header--menu-id" class="mr-section-header--menu-icon"></label>
             <!-- MENU -->
-            <ul class="main-nav" id="js-menu">
-              <li><a href="#" class="nav-links">Home</a></li>
-              <li><a href="#" class="nav-links">Planes</a></li>
-              <li><a href="#" class="nav-links"> Actividades</a></li>
-              <li><a href="#" class="nav-links">Contacto</a></li>
-          </ul>
+            <nav class="mr-layout-flex mr-section-header--nav">
+              <ul>
+              <li><a href="#" aria-label="#" class="rc-section-header--nav-link">Home</a></li>
+              <li> <a href="#" aria-label="#" class="rc-section-header--nav-link">Planes</a></li>
+              <li><a href="#" aria-label="#" class="rc-section-header--nav-link">Actividades</a></li>
+              <li><a href="#" aria-label="#" class="rc-section-header--nav-link">Contacto</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </header>
-
+    </section>
     
+    <section class="features">
 
       <div class="grid-container">
-        <div class="item-container">
-            <h2>1</h2>
+        <div class="plans item-basic">
+            <h2 class="title">Plan Básico: 10€</h2>
+            <p>Que entra?</p>
+            <ul>
+              <li>Plan nutrición</li>
+              <li>Plan nutrición</li>
+              <li>Plan nutrición</li>
+              <li>Plan nutrición</li>
+            </ul>
+            
         </div>
 
-        <div class="item-container">
-          <h2>1</h2>
+        <div class="plans item-advanced">
+          <h2 class="title">Plan Avanzado: 30€</h2>
+          <p>Que entra?</p>
+          <ul>
+            <li>Plan nutrición</li>
+            <li>Plan nutrición</li>
+            <li>Plan nutrición</li>
+            <li>Plan nutrición</li>
+          </ul>
+          
         </div>
 
-        <div class="item-container">
-          <h2>1</h2>
+        <div class="plans item-profesional">
+          <h2 class="title" >Plan Profesional: 50€</h2>
+          <p>Que entra?</p>
+          <ul>
+            <li>Plan nutrición</li>
+            <li>Plan nutrición</li>
+            <li>Plan nutrición</li>
+            <li>Plan nutrición</li>
+          </ul>
        </div>
       </div>
-    
+
     </section>
+    
+   
 
     <section class="galleries">
       <div class="galleries-container">
@@ -159,22 +187,22 @@
 
     <footer>
       <div class="footer">
-        <div class="row">
+        <div class="iconos">
           <a href="#"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>
           <a href="#"><i class="fa fa-youtube"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>
         </div>
 
-        <div class="row">
+        <div class="iconos">
           <ul>
             <li><a href="#">Contacta con nosotros</a></li>
             <li><a href="#">Nuestros Planes</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Terminos & Condiciones</a></li>
           </ul>
         </div>
 
-        <div class="row">
+        <div class="iconos">
           Copyright © 2021 MRC Running - All rights reserved
         </div>
       </div>
