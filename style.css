@@ -181,7 +181,7 @@ li{
 .grid-container .plans .title{
   font-size: 14px;
   font-weight: 600;
-  color: var(-mr-color-title)
+  color: var(-mr-color-title);
   margin-bottom: 10px;
   letter-spacing: 0.1em;
 
